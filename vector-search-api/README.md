@@ -1,0 +1,44 @@
+# Semantic Search API
+
+This project is a simple semantic search system built using Node.js and Cohere embeddings.
+
+## Features
+- Convert text to embeddings
+- Cosine similarity search
+- Find most similar sentence
+
+## Tech Stack
+- Node.js
+- Express
+- Cohere API
+
+## API
+
+### GET /test
+Returns embedding of sample text
+
+### POST /similar
+Input:
+{
+  "query": "I want a phone",
+  "sentences": ["I need a smartphone", "I love football"]
+}
+
+Output:
+{
+  "mostSimilar": "I need a smartphone"
+}
+
+## Sample Outputs
+
+### Embedding Output
+This shows how a text is converted into a vector (numerical representation).
+
+![Embedding Output](./embedding.png)
+
+---
+
+### 🔹 Similarity Search Output
+This shows how the system finds the most similar sentence using cosine similarity.
+
+![Similarity Output](./similarity.png)
