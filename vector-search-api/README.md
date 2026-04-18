@@ -31,7 +31,7 @@ Output:
 
 ## Sample Outputs
 
-### Embedding Output
+### 🔹 Embedding Output
 This shows how a text is converted into a vector (numerical representation).
 
 ![Embedding Output](./embedding.png)
