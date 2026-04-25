@@ -1,4 +1,4 @@
-# Mini RAG System (Node.js + Ollama + Qdrant)
+# RAG System (Node.js + Ollama + Qdrant)
 
 ## Overview
 
